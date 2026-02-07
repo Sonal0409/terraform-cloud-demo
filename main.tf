@@ -16,10 +16,3 @@ filter {
 
 }
 
-resource "aws_instance" "myec2" {
-  ami    = data.aws_ami.myami.id 
-  instance_type = "t2.nano"
-
-}
-
-
